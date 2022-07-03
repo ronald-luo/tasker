@@ -1,0 +1,29 @@
+.task {
+    border: 2px solid rgba(19, 74, 126, 0.4);
+    min-height: 50px;
+    margin-top: 5px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    white-space: initial;
+    background-color: white;
+    cursor: pointer;
+
+    &:hover {
+        transition: ease-out 0.5s;
+        color: white;
+        background-color: rgba(40, 77, 197, 0.338);
+    }
+
+    .task-text {
+        align-self: center;
+        text-align: center;
+        justify-self: center;
+        line-height: 25px;
+        font-size: 16px;
+        font-family: "Poppins";
+        max-width: 311px;
+        padding: 5px;
+        word-wrap: break-word;
+    }
+}

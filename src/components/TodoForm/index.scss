@@ -1,0 +1,18 @@
+input {
+    width: 100%;
+    height: 50px;
+    text-indent: 15px;
+    font-family: "Poppins";
+    font-size: 16px;
+    border: 2px solid rgb(98, 148, 214);
+    border-radius: 15px;
+    margin: 10px 0 35px 0;
+
+    &:focus {
+        transition: 0.8s;
+        outline: 1px solid #465eae;
+        -webkit-box-shadow: 5px 5px 0px 0px #222dc47c, 10px 10px 0px 0px #4846ce67, 15px 15px 0px 0prgba(147, 137, 216, 0.534)d8, 20px 20px 0px 0px #b2a9da48, 25px 25px 0px 0px #abb6c52c, 5px 4px 32px 4px rgba(255, 80, 203, 0.082); 
+        box-shadow: 5px 5px 0px 0px #5328ed65, 10px 10px 0px 0px #795ae84b, 15px 15px 0px 0px #c0a1ff44, 20px 20px 0px 0px #e3caff48, 25px 25px 0px 0px #f4e1ff23, 5px 4px 32px 4px rgba(246, 80, 255, 0.062);
+    }
+
+}

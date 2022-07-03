@@ -1,0 +1,44 @@
+@import './variables.scss';
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(209,226,244);
+    background: linear-gradient(9deg, rgba(209,226,244,0.1) 0%, rgba(223,220,255,0.1) 100%);
+
+    @include tablet {
+        height: auto;
+    }
+}
+
+main {
+    width: 375px;
+    margin: auto;
+    padding: 2em;
+
+    @include tablet {
+        width: 500px;
+    }
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0 20px 0;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    color: #7a81e4;
+    font-weight: 600;
+
+    @include tablet {
+        margin: 40px 0 65px 0;
+    }
+}
+
+img {
+    display: block;
+    margin: 20px auto 10px auto;
+}
